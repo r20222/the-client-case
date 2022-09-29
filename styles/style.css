@@ -1,0 +1,49 @@
+* {
+    font-family: Montserrat,sans-serif;
+    box-sizing: border-box;
+}
+
+.navimg {
+    width: 25px;
+    height: 25px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+.notificatie {
+    width:816px;
+    height:368px;
+    background-color: #F4EB34;
+    border-radius: 47px;
+    text-align: center;
+   
+}
+.blauw {
+    width: 292px;
+    height: 182px;
+    background-color: #72AFA6;
+    display: inline-block;
+    
+}
+.kalender {
+    width: 176px;
+    height:142px;
+}
+.dagboek {
+    width:176px;
+    height:218px;
+}
+.vraagteken {
+    width: 63px;
+    height:177px;;
+}
+.envelop {
+    width: 198px;
+    height: 159px;
+}
