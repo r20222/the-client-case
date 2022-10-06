@@ -3,26 +3,56 @@
     box-sizing: border-box;
 }
 
+nav {
+    z-index: 5;
+    position:absolute;
+    float: left;
+}
 .navimg {
     width: 25px;
-    height: 25px;
+    height: 25px; 
 }
 ul {
     list-style-type: none;
     display: flex;
     justify-content: flex-start;
 }
+li {
+    margin-left: 70px;
+    margin-top: 20px;
+}
 a {
     text-decoration: none;
     color:black;
 }
+
 .notificatie {
     width:816px;
     height:368px;
     background-color: #F4EB34;
     border-radius: 47px;
+    margin: auto;
+    left:0;
+    right:0;
     text-align: center;
-   
+    position:relative;
+    top: 150px;
+}
+#advies {
+    text-align:center;
+    top:40%;
+    position: relative;
+    font-size:25px;
+}
+#datum {
+    float: right;
+    position: relative;
+    top: 5%;
+    right: 5%;
+    font-size:25px;
+}
+.woorden {
+    z-index: 5;
 }
 .blauw {
     width: 292px;
@@ -30,6 +60,10 @@ a {
     background-color: #72AFA6;
     display: inline-block;
     border-radius: 47px;
+    margin:32px;
+    padding-left:50px;
+    position: relative;
+    top:105px;
 }
 .kalender {
     width: 176px;
@@ -37,7 +71,7 @@ a {
 }
 .dagboek {
     width:176px;
-    height:218px;
+    height:170px;
 }
 .vraagteken {
     width: 63px;
