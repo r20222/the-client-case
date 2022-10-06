@@ -53,6 +53,24 @@ a {
 }
 .woorden {
     z-index: 5;
+    font-size: 2em;
+    position:relative;
+}
+.woorden li {
+    position:absolute;
+    top: 105px;
+}
+#kalender {
+right: 120px;
+}
+#dagboek {
+ left: 450px;
+}
+#vraagteken {
+ right: 500px;
+}
+#berichten {
+ left: 80px;
 }
 .blauw {
     width: 292px;
@@ -60,10 +78,10 @@ a {
     background-color: #72AFA6;
     display: inline-block;
     border-radius: 47px;
-    margin:32px;
+    margin-left:70px;
     padding-left:50px;
     position: relative;
-    top:105px;
+    top:110px;
 }
 .kalender {
     width: 176px;
