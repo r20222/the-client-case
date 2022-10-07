@@ -25,7 +25,7 @@ a {
     color:black;
 }
 
-.notificatie {
+section {
     width:816px;
     height:368px;
     background-color: #F4EB34;
@@ -36,13 +36,13 @@ a {
     text-align: center;
     position:relative;
 }
-#advies {
+h2 {
     text-align:center;
     top:40%;
     position: relative;
     font-size:25px;
 }
-#datum {
+h1 {
     float: right;
     position: relative;
     top: 5%;
