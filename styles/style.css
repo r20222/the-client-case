@@ -5,8 +5,7 @@
 
 nav {
     z-index: 5;
-    position:absolute;
-    float: left;
+    
 }
 .navimg {
     width: 25px;
@@ -36,7 +35,6 @@ a {
     right:0;
     text-align: center;
     position:relative;
-    top: 150px;
 }
 #advies {
     text-align:center;
@@ -51,15 +49,38 @@ a {
     right: 5%;
     font-size:25px;
 }
+
+/* blauwe blokken */
 .woorden {
     z-index: 5;
     font-size: 2em;
     position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
-.woorden li {
-    position:absolute;
-    top: 105px;
+.woorden > li {
+    background-color: #72AFA6;
+    padding: 20px;
+    border-radius: 47px;
 }
+
+a {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+li > a > img {
+    width: 176px;
+    height:142px;
+    display:flex;
+    align-self: flex-end;
+   
+}
+/* 
+
 #kalender {
 right: 120px;
 }
@@ -83,19 +104,5 @@ right: 120px;
     position: relative;
     top:110px;
 }
-.kalender {
-    width: 176px;
-    height:142px;
-}
-.dagboek {
-    width:176px;
-    height:170px;
-}
-.vraagteken {
-    width: 63px;
-    height:177px;;
-}
-.envelop {
-    width: 198px;
-    height: 159px;
-}
+
+} */
