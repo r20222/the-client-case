@@ -7,6 +7,10 @@ nav {
     z-index: 5;
     
 }
+button {
+    background-color: transparent;
+    border: none;
+}
 .navimg {
     width: 25px;
     height: 25px; 
@@ -14,15 +18,19 @@ nav {
 ul {
     list-style-type: none;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
 }
-li {
-    margin-left: 70px;
+#kalender, #dagboek, #vraagteken, #berichten {
+    /* margin-left: 70px; */
     margin-top: 20px;
 }
 a {
     text-decoration: none;
     color:black;
+}
+
+.blauw{
+    flex-direction: column;
 }
 
 section {
@@ -56,11 +64,15 @@ h1 {
     font-size: 2em;
     position:relative;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    /* margin-left: auto;
+    left:0%;
+    right:0%; */
+    
    
 }
-.woorden > li {
+.woorden > div {
     background-color: #72AFA6;
     padding: 20px;
     border-radius: 47px;
@@ -69,10 +81,9 @@ h1 {
 a {
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
 }
-li > a > img {
+div > a > img {
     width: 176px;
     height:142px;
     display:flex;
