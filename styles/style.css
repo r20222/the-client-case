@@ -2,14 +2,11 @@
     font-family: Montserrat,sans-serif;
     box-sizing: border-box;
 }
-
 nav {
-    z-index: 5;
-    
+    z-index: 5;  
 }
-button {
-    background-color: transparent;
-    border: none;
+.pijltje {
+    width: 20px;
 }
 .navimg {
     width: 25px;
@@ -22,7 +19,7 @@ ul {
 }
 #kalender, #dagboek, #vraagteken, #berichten {
     /* margin-left: 70px; */
-    margin-top: 20px;
+    margin-top: 50px;
 }
 a {
     text-decoration: none;
@@ -46,16 +43,29 @@ section {
 }
 h2 {
     text-align:center;
-    top:40%;
+    top:20%;
     position: relative;
     font-size:25px;
 }
-h1 {
-    float: right;
-    position: relative;
-    top: 5%;
+span {
+    position: absolute;
+    top: 10%; 
     right: 5%;
     font-size:25px;
+}
+section > p {
+    text-align:center;
+    position: relative;
+    top:30%;
+    font-size: 2em;
+}
+
+header {
+    position: relative;
+    left: 20%;
+}
+div > a > p {
+    font-size: 0.4em;
 }
 
 /* blauwe blokken */
