@@ -52,7 +52,7 @@ a {
 }
 
 section {
-    width:700px;
+    width:85%;
     height:200px;
     background-color: #F4EB34;
     border-radius: 47px;
@@ -165,7 +165,12 @@ div > a > img {
         position:relative;
         top:125px;
         z-index:-1;
+
       }
+      /* #kalender, #dagboek, #vraagteken, #berichten {
+        font-size: 50%;
+        width:50%;
+      } */
     #winkelwagen {
         width: 25px;
         height: 25px; 
