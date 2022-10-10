@@ -167,10 +167,26 @@ div > a > img {
         z-index:-1;
 
       }
-      /* #kalender, #dagboek, #vraagteken, #berichten {
-        font-size: 50%;
-        width:50%;
-      } */
+      #kalender, #dagboek, #vraagteken, #berichten {
+        font-size: 80%;
+        display: flex;
+        flex-direction: column;
+        /* box-sizing:border-box; */
+      }
+      #berichten, #vraagteken {
+        margin-top:12px;
+        margin-bottom: 20px;
+      }
+      #kalender, #dagboek {
+        margin-top: 10px;
+      }
+      div > a > img {
+        width: 100px;
+        height:70px;
+        /* display:flex;
+        align-self: flex-end; */
+    }
+
     #winkelwagen {
         width: 25px;
         height: 25px; 
