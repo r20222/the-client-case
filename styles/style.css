@@ -5,18 +5,39 @@
 nav {
     z-index: 5;  
 }
+#vini-mini-logo {
+    position:fixed;
+    top:5%;
+    left:5%;
+    z-index:5;
+}
 .pijltje {
     width: 20px;
 }
-.navimg {
+#winkelwagen {
     width: 25px;
     height: 25px; 
+    position:fixed;
+    top:5%;
+    right:13%;
 }
+#account {
+    width: 25px;
+    height: 25px; 
+    position:fixed;
+    top:5%;
+    right:8%;
+}
+
 ul {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
 }
+nav > ul > li:nth-child(8) {
+    display:none;
+  }
+
 #kalender, #dagboek, #vraagteken, #berichten {
     /* margin-left: 70px; */
     margin-top: 50px;
@@ -31,8 +52,8 @@ a {
 }
 
 section {
-    width:816px;
-    height:368px;
+    width:700px;
+    height:200px;
     background-color: #F4EB34;
     border-radius: 47px;
     margin: auto;
@@ -40,24 +61,25 @@ section {
     right:0;
     text-align: center;
     position:relative;
+    
 }
 h2 {
     text-align:center;
     top:20%;
     position: relative;
-    font-size:25px;
+    font-size:1.7em;
 }
 span {
     position: absolute;
-    top: 10%; 
+    top: 5%; 
     right: 5%;
     font-size:25px;
 }
 section > p {
     text-align:center;
     position: relative;
-    top:30%;
-    font-size: 2em;
+    top:20%;
+    font-size: 1.5em;
 }
 
 header {
@@ -98,7 +120,75 @@ div > a > img {
     height:142px;
     display:flex;
     align-self: flex-end;
-   
+}
+
+@media screen and (max-width: 1133px){
+    body{
+    color: red;
+    }
+    nav > ul > li:nth-child(2) {
+        display:none;
+      }
+    nav > ul > li:nth-child(3) {
+        display:none;
+      }
+      nav > ul > li:nth-child(4) {
+        display:none;
+      }
+      nav > ul > li:nth-child(5) {
+        display:none;
+      }
+      nav > ul > li:nth-child(6) {
+        display:none;
+      }
+      nav > ul > li:nth-child(7) {
+        display:none;
+      }
+      nav > ul > li:nth-child(8) {
+        display:flex;
+        font-size: 1.5em;
+        position: fixed;
+        z-index:5;
+        top:5%;
+      }
+      .woorden {
+        flex-flow:wrap;
+        position:relative;
+        top:125px;
+      }
+    #winkelwagen {
+        width: 25px;
+        height: 25px; 
+        position:fixed;
+        top:5%;
+        right:17%;
+        z-index:5;
+    }
+    #account {
+        width: 25px;
+        height: 25px; 
+        position:fixed;
+        top:5%;
+        right:8%;
+        z-index:5;
+    }
+    header {
+        position: relative;
+        left: 5%;
+        top: 100px;
+    }
+    section {
+        width:95%;
+        height:300px;
+        background-color: #F4EB34;
+        border-radius: 47px;
+        margin: auto;
+        left:0;
+        right:0;
+        text-align: center;
+        position:relative;
+        top: 125px;
+    }
 }
 /* 
 
