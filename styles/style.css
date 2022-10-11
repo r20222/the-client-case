@@ -208,6 +208,7 @@ div > a > img {
         left: 5%;
         top: 120px;
         z-index:-1;
+        padding-right: 60px
     }
     section {
         width:95%;
