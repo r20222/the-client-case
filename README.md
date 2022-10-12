@@ -6,7 +6,8 @@ Persoonlijke Vini Mini omgeving
 ## Inhoudsopgave
 
   * [Beschrijving](#beschrijving)
-  Ik heb de userstory #11 gekozen: Als ouder wil ik bij het openen van Mijn Vini Mini persoonlijk advies behorende bij de betreffende dag kunnen lezen, zodat de kans op een allergische reactie bij mijn kind kleiner wordt.
+  
+Ik heb de userstory #11 gekozen: Als ouder wil ik bij het openen van Mijn Vini Mini persoonlijk advies behorende bij de betreffende dag kunnen lezen, zodat de kans op een allergische reactie bij mijn kind kleiner wordt.
   
   Als je eenmaal ingelogd bent op je persoonlijke account dan zie je bovenaan het persoonlijke advies van de desbetreffende dag in de gele rechthoek. Daaronder zie je 4 blauwe blokken. Elke blok is een link naar een andere pagina waar je de desbetreffende dingen kan vinden. In elk blauw blok staat ook een korte uitleg van wat het inhoud. De website is te vinden op: https://r20222.github.io/the-client-case/
   
